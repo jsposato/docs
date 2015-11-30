@@ -29,3 +29,6 @@ sonar.sources=app/src/main/java/com/weightwatchers
 
 # Jenkins setup
 
+## What do I need to configure system-wide?
+
+## What do I need to configure for a specific job?
