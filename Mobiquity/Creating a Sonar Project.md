@@ -24,8 +24,12 @@ sonar.sources=app/src/main/java/com/weightwatchers
 
 # Sonar UI
 ## What groups need to exist?
+At least a group per customer, if not per project or platform.
+
+The jenkins user must be in the group in order for the scan at build time to work
 
 ## What permissions does the group get?
+The group for the project/platform should have Browse rights only
 
 # Jenkins setup
 
