@@ -34,5 +34,10 @@ The group for the project/platform should have Browse rights only
 # Jenkins setup
 
 ## What do I need to configure system-wide?
+There shouldn't be any system-wide configuration if your Jenkins master was created by FIRE.
 
 ## What do I need to configure for a specific job?
+For a job, you need to add a build step of 'Invoke Standalone SonarQube Analysis'
+
+You can either create a sonar-project.properties in the root of your repository (preferred) or
+configure the project properties in the job configuration
