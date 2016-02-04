@@ -21,3 +21,26 @@ Then run
 sudo su - jenkins
 ssh -i ~/.ssh/dhelmick-testing.pem [ANDROID_SLAVE_IP]
 ```
+
+## How to SSH into the iOS build slave
+```
+ssh jenkins_slave@[OSX_NODE_IP]
+```
+
+If you don't know the password, ask. 
+
+## How to VNC into the iOS build slave
+
+From a Finder window, press CMD+K
+
+In the server address field, put:
+```
+vnc://208.52.191.111
+```
+
+Account name is `administrator`
+
+If you don't know the password, ask.
+
+You are now remotely viewing the iOS build node's desktop
+
