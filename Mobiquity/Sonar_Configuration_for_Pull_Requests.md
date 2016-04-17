@@ -18,3 +18,4 @@
             * Fire already has one for firewrite user
 
 ### Sonar
+1. There is no special Sonar setup required.  The project should exist from the develop job.
