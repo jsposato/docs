@@ -7,7 +7,7 @@
 ![alt text](https://github.com/jsposato/docs/blob/master/Mobiquity/images/PR_GitConfig.png "Git Config")
 
 3. Configure the build trigger
-![alt text](https://github.com/jsposato/docs/blob/master/Mobiquity/images/ uildTriggers.png "Build Trigger Config")
+![alt text](https://github.com/jsposato/docs/blob/master/Mobiquity/images/BuildTriggers.png "Build Trigger Config")
 
 4. Add standalone sonar analysis
     * Need the following keys setup in the ‘Analysis Properties’ box:
