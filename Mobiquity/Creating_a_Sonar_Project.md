@@ -41,3 +41,6 @@ For a job, you need to add a build step of 'Invoke Standalone SonarQube Analysis
 
 You can either create a sonar-project.properties in the root of your repository (preferred) or
 configure the project properties in the job configuration
+
+## How do I configure a job to run sonar on pull requests?
+[Check Here](https://github.com/jsposato/docs/blob/master/Mobiquity/Sonar_Configuration_for_Pull_Requests.md)
