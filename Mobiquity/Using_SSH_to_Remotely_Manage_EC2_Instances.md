@@ -35,7 +35,7 @@ From a Finder window, press CMD+K
 
 In the server address field, put:
 ```
-vnc://208.52.191.111
+vnc://[OSX_NODE_IP]
 ```
 
 Account name is `administrator`
