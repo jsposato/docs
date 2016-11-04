@@ -12,6 +12,11 @@ The command will look something like this:
 ssh -i ~/.ssh/mobci-jsposato.pem centos@[JENKINS_MASTER_IP]
 ```
 
+## To run commands with elevated privileges you must first change to the root user
+```
+sudo su
+```
+
 ## How to tunnel from Jenkins master to your Android Slave
 Follow the previous step to login to Jenkins master
 
@@ -35,7 +40,7 @@ From a Finder window, press CMD+K
 
 In the server address field, put:
 ```
-vnc://208.52.191.111
+vnc://[OSX_NODE_IP]
 ```
 
 Account name is `administrator`
