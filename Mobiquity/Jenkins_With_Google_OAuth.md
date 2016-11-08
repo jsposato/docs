@@ -24,7 +24,7 @@ and the authorized redirect URI should be:
 
 <JENKINS_URL>/securityRealm/finishLogin
 
-### Configure Jenkins
+### Configure Jenkins Global Security
 Be sure to configure both the Security Realm and authorization sections
 ![Git Config](https://github.com/jsposato/docs/blob/master/Mobiquity/images/SecurityConfiguration.png "Git Config")
 
