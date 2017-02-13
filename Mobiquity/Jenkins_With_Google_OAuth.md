@@ -58,7 +58,8 @@ elevate someone's privileges, add them in `Assign Roles` to the role that grants
 1. SSH into the Jenkins master
 2. sudo to jenkins (`sudo su - jenkins`)
 3. Edit config.xml to replace `<useSecurity>true</useSecurity>` with `<useSecurity>false</useSecurity>` 
-4. You can then start over with the configuration
+4. Restart Jenkins
+5. You can then start over with the configuration
 
 ### Where do I see who has logged in?
 SSH into the Jenkins master, and `ls -al /var/lib/jenkins/users`
