@@ -33,18 +33,16 @@ The Jenkins URL needs to match the DNS name of the Jenkins master
 
 ### Configure Roles
 * Go to `Manage Jenkins->Manage and Assign Roles->Manage Roles`
-* Add a role `authenticated` -> Must be named exactly like this
-    * This role will be what users get by default when they login.
-    * Assign the Overall Read permission
-    * Assign Build, Cancel, Configure, Create, Delete, Discover, Move, Read, and Workspace in Job
-    * Assign Configure, Create, Delete, and Read in View
 * Add a role `anonymous`
-    * This role will allow the transition from Oauth to the authenticated role
     * Assign the Overall Read permission
 * Go to `Manage Jenkins->Manage and Assign Roles->Assign Roles`
     * Add your Mobiquity email address as an admin
     * Add the anonymous role to Anonymous
+    * Add the authenticated group and give it anonymous rights
     * Save
+
+Now anyone in your Google organization can login, but if they haven't been specifically given any
+rights, they will not see any jobs.
 
 ###
 Logout and login.  You should go through the Google authorization and then be logged in with admin rights.
