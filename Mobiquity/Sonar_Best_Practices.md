@@ -3,7 +3,7 @@
 ### Start early
 The earlier in the project lifetime you start scanning with Sonar, 
 the less technical debt you will add to the codebase. It's simple 
-to setup on any project.
+to setup to analyze the code.
 
 ### Run often
 Run against PRs . There is no reason to merge a PR with any reported
