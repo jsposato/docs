@@ -7,7 +7,7 @@ The file should contain configuration details for your project.
 Example:
 ```
 # must be unique in a given SonarQube instance
-sonar.projectKey=com.weightwatchers.mobile
+sonar.projectKey=com.weightwatchers.android
 # this is the name displayed in the SonarQube UI
 sonar.projectName=Android Tracker
 sonar.projectVersion=1.0
