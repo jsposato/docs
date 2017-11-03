@@ -16,6 +16,14 @@ for a token.
 ### Send request to add Jenkins master URLs to ITHelp@mobiquityinc.com
 Be sure to include the following information:
 
+origin: 
+ 
+ <JENKINS_URL>
+ 
+ and the authorized redirect URI should be:
+ 
+ <JENKINS_URL>/securityRealm/finishLogin
+ 
 
 ### Configure Jenkins Global Security
 Be sure to configure both the Security Realm and authorization sections
